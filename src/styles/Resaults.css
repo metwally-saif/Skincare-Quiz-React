@@ -1,0 +1,131 @@
+.r-title-container {
+    padding: 4vh 0 11vh !important;
+}
+
+.r-title {
+    font-size: 33px !important;
+}
+
+.r-description {
+    font-size: 13px !important;
+    width: 82vh !important;
+}
+
+button.retake {
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid #1C2635;
+    outline: none;
+    padding: 8px 20px;
+    margin-top: 10px;
+    color: #1C2635;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.slider-container {
+    width: 100%;
+    height: 44vh;
+    position: relative;
+    top: -4vw;
+    display: flex;
+    justify-content: space-around;
+}
+.react-multi-carousel-list {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin: 0 50px;
+    top: -44px;
+    padding-bottom: 30px;
+    margin-inline: 15vh;
+    margin-left: 22vh;
+
+}
+
+
+
+.content-card, .products {
+    border-radius: 8px;
+}
+
+.content-card {
+    width: 40vh;
+    background-color: #EEF7FB;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.title-routine {
+    color: #1C2635;
+    text-align: center;
+    font-family: Grange;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+p.routine-content {
+    color: #1C2635;
+    font-family: Proxima Nova;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 200px;
+}
+
+.products {
+    position: relative;
+    width: 40vh;
+}
+
+.product-pic {
+    background-color: #EEF7FB;
+    border-radius: 8px;
+    max-width: -webkit-fill-available;
+    max-height: 40vh;
+    padding: 10px 30px 15px 30px;
+}
+
+h4.product-name {
+    color: #1C2635;
+    text-align: center;
+    font-family: Grange;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    margin: 5px;
+}
+h6.product-price {
+    margin: 0;
+    color: #1C2635;
+    text-align: center;
+    font-family: Grange;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+span.fav {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+img.favicon {
+    width: 25px;
+    height: 25px;
+}
